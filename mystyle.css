@@ -1,0 +1,179 @@
+.container{
+	width: 100%;
+}
+.wrapper{
+	width: 90%;
+}
+section{
+	margin: 50px;
+}
+.left_content{
+	width: 70%;
+}
+.line{
+	float: left;
+}
+.line-text{
+	font-weight: bold;
+    margin-top: 15px;
+    color: #666;
+    display: block;
+}
+.number-text
+{
+	margin-left: 100px;
+	border-left: 1px solid #CCCCCC;
+	padding: 10px;
+}
+.number-text .number{
+	font-weight: bold;
+    color: #069;
+    font-size: 1.5em;
+}
+.number-text .text{
+	color: #666;
+    display: block;
+}
+.share-number{
+	font-size: 60px;
+    line-height: 60px;
+    color: #666;
+    display: block;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.share{
+	color: rgb(168, 206, 80);
+    position: relative;
+    font-size: 18px;
+    line-height: 18px;
+    bottom: 2px;
+    margin-left: 100px;
+}
+.icons{
+	 margin-left: 70px;
+	 border-left: 1px solid #CCCCCC;
+	 padding: 10px;
+}
+.top-div
+{
+	border-top: 1px dotted #CCCCCC;
+	padding: 10px;
+}
+ .icon1{
+	background-color: rgb(59, 89, 152);
+	display: inline-block;
+	width: 50px;
+    margin: 0 2px 5px;
+    padding: 20px;
+    overflow: hidden;
+    line-height: 0;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+   
+}
+ .icon2{
+	background-color: rgb(29, 161, 242);
+	display: inline-block;
+	width: 40px;
+    margin: 0 2px 5px;
+    padding: 20px;
+    overflow: hidden;
+    line-height: 0;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+}
+ .icon3{
+	background-color: #666;
+	display: inline-block;
+	width: 30px;
+    margin: 0 2px 5px;
+    padding: 20px;
+    overflow: hidden;
+    line-height: 0;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+}
+.image{
+	margin: 0 auto;
+}
+.image img{
+	width: 100%;
+	border-top: 1px dotted #CCCCCC;
+	padding-top: 40px;
+}
+.image p{
+	text-align: justify;
+}
+
+.ads{
+	float: left;
+}
+
+/*right ads*/
+.right_content img{
+	margin: 10px 0 15px 30px;
+}
+
+
+
+
+@media (max-width:768px) {
+	body{
+		font-size: 60%;
+	}
+	.share-number{
+	font-size: 30px;
+	margin-left: 50px;
+}
+.share{
+    font-size: 16px;
+    line-height: 18px;
+    bottom: 2px;
+    margin-left: 50px;
+}
+.icons{
+margin-left: 30px;
+}
+.icon1{
+	width: 30px;
+    margin: 0 2px 2px;
+    padding: 20px;
+}
+ .icon2{
+	width: 30px;
+    margin: 0 2px 2px;
+    padding: 20px;
+}
+ .icon3{
+	width: 20px;
+    margin: 0 2px 2px;
+    padding: 20px;
+}
+}
+
+
+
+/*MEDIA QUERY*/
+@media (max-width:320px) {
+	body{
+		font-size: 60%;
+	}
+	.number-text
+{
+	margin-left: 10px;
+}
+.share-number{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.share{
+    margin-left: 10px;
+}
+.icons{
+	 padding: 10px;
+}
+}
